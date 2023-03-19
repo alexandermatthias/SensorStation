@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=LO8nnQZCrMU
+The above video describes how to set up the Arduino IDE to run the bootloader 
+https://www.youtube.com/watch?v=X5achE10rCI
+The 2nd video had the fritzing diagram from an Uno to a Mega
+
+
+Basically:
+1. Choose the port as normal
+2. Choose the board you are using as normal 
+3. Load the Example code (Saved int his folder) 
+4. Modify the Example coad to use 'old style wiring'  it's a single line that needs to be uncommented, about 1/4 through the sketch. 
+5. Set the programmer to Arduino as ISP (it was set as AVRISP mkll)... I am actually not 
+sure which programmer was selected when I uplaoded the sketch to the arduino board. 
+6. Upload the sketch to the 'Sender' board (this is the board you are using to do the work, no the one to be reprogrammed) 
+7. Then go to tools 'Burn Bootloader'
